@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --myColorMain: #2A2A2A;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar{
+    background-color: var(--myColorMain);
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+}
+img.sidebar__avatar {
+    text-align: center;
+    display: block;
+    margin: 40px auto 0 auto;
+}
